@@ -1,6 +1,10 @@
 from datetime import datetime
 from typing import Optional
 
+# Данные необходимо храните в БД PostgreSQL
+# Необходимо реализовать SPA на React
+
+
 from flask import Flask, request
 from flask_sqlalchemy import SQLAlchemy
 from flask_restx import Api, Resource, fields
